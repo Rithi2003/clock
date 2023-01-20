@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color:black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+    border: 5px solid rgb(134, 21, 87);
+    box-shadow: 15px 15px 10px plum;
+    border-radius: 3%;
+    padding: 5px;
+}
+
+#time{
+    color:wheat;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300px;
+}
